@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carsearch</title>
+    
+    <style>
+        .sidebar {padding-top: 20px;
+                width: 370px;
+                border: 4px groove rgb(231, 183, 50); 
+                padding: 10px; 
+                background-color: rgb(208, 224, 237);
+                  }
+           
+    </style>
+    
+</head>
+<body style="font-family: 'Montserrat', sans-serif; background-color: rgb(222, 239, 253);">
+
+<header style="text-align: center; font-size:xx-large;"> <b>Car search</b></header>
+
+<aside class="sidebar"> 
+
+<form action="https://fom.in.ua/echo">
+
+<div><label for="checkbox">
+   All <input type="checkbox" checked> Used <input type="checkbox"> New <input type="checkbox">
+</label>
+</div>
+<br>
+
+<div> 
+    <div style="border:solid 2px; border-color: rgb(231, 183, 50); width: 115px;background-color: whitesmoke">Car body types</div>
+     <select name="select"> 
+        <option value="all">All types</option>
+        <option value="sedan">Sedan</option>
+        <option value="station-wagon">Station wagon</option>
+        <option value="suv">SUV</option>
+        <option value="limousin">Limousin</option>
+        <option value="hatchback">Hatchback</option>
+    </select>
+</div>
+<br>
+
+<div> 
+    <div style="border:solid 2px; border-color: rgb(231, 183, 50); width: 90px;background-color: whitesmoke">
+        Car brand
+    </div> 
+    <select name="select">
+        <option value="Mazda">Mazda</option>
+        <option value="Audi">Audi</option>
+        <option value="ford">Ford</option>
+        <option value="Toyota">Toyota</option>
+        <option value="KIA">KIA</option>
+        <option value="BMW">BMW</option>
+        <option value="Mercedez-benz">Mercedes-Benz</option>
+    </select>
+</div>
+<br>
+
+<div>
+    <div style="border:solid 2px; border-color: rgb(231, 183, 50); width: 72px;background-color: whitesmoke">The price</div>
+    <label for="price">
+        Starting from<input type="number" name="starting-from"> 
+        <br> Up to <input type="number"> Remember <input type="checkbox">
+    </label>
+</div>
+<br>
+
+<div> 
+    <div style="border:solid 2px; border-color: rgb(231, 183, 50); width: 170px;background-color: whitesmoke">Сountry of manufacture</div>
+    <label for="country">
+        Germany <input type="radio">
+        France <input type="radio">
+        USA <input type="radio">
+        Japan <input type="radio">
+        England <input type="radio">
+        All countries <input type="radio" checked>
+    </label>
+</div>
+<br>
+
+<div>
+    <div style="border:solid 2px; border-color: rgb(231, 183, 50); width: 93px;background-color: whitesmoke">Year of issue</div>
+    <label for="year">
+        <select name="year">
+            <option value="2000">2000</option>
+            <option value="2000">2002</option>
+            <option value="2000">2004</option>
+            <option value="2000">2006</option>
+            <option value="2000">2008</option>
+            <option value="2000">2010</option>
+            <option value="2000">2012</option>
+            <option value="2000">2014</option>
+            <option value="2000">2016</option>
+            <option value="2000">2018</option>
+            <option value="2000">2020</option>
+            <option value="2000">2022</option>
+            <option value="2000">2023</option>
+        </select>
+    </label>
+</div>
+<br>
+
+<div>
+    <div style="border:solid 2px; border-color: rgb(231, 183, 50); width: 70px;background-color: whitesmoke">Condition</div>
+    <label for="condition">
+        New <input type="checkbox">
+        Beaten<input type="checkbox">
+        In credit <input type="checkbox">
+        Not cleared <input type="checkbox">
+        Show all <input type="checkbox">
+    </label>
+</div>
+<br>
+
+<div>
+    <div style="border:solid 2px; border-color: rgb(231, 183, 50); width: 80px;background-color: whitesmoke">Type of oil</div>
+    <label> 
+        <select name="oil" required>
+            <option value="diesel">Diesel</option>
+            <option value="oil">Oil</option>
+            <option value="gas">Gas</option>
+        </select>    
+    </label>
+</div>
+<br>
+
+<div>
+    <div style="border:solid 2px; border-color: rgb(231, 183, 50); width: 100px;background-color: whitesmoke"> Gearbox type</div>
+    <label for="gearbox">
+        Manual gearbox <input type="radio">
+        Automatic transmission <input type="radio">
+        Robotic gearbox <input type="radio">
+    </label>
+</div>
+<br>
+
+<div>
+    <div style="border:solid 2px; border-color: rgb(231, 183, 50); width: 50px;background-color: whitesmoke"> Colour </div>
+    <label for="colour">
+       Choose one <input type="color">
+    </label>
+</div>
+<br>
+
+<div style="border:solid 2px; border-color: rgb(231, 183, 50); width: 155px;background-color: whitesmoke"> Other comfort options</div>
+<div>
+    <label for="options">
+        <input type="radio">Leather salon
+        <br>
+        <input type="radio">Matte finish
+        <br>
+        <input type="radio">Runroof in the car
+        <br>
+        <input type="radio">TVs
+    </label>
+</div>
+<br>
+
+<div>
+    <label for="button">
+        <input type="submit" value="Start" style="border:1px solid; border-radius: 10px; ">
+    </label>
+</div>
+
+</form>
+</aside>
+</body>
+</html>
